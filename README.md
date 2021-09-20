@@ -7,11 +7,11 @@ Now in my app I want to be able to have the dealer tell me which cards have been
 
 On my XAML page:
 
-   <StackPanel>
+    <StackPanel>
         <TextBox Header="Text To Speak" x:Name="textToSpeechBox" />
         <Button Click="Button_Click" Content="Click Me!"/>
         <MediaElement x:Name="mediaElement" />
-    </StackPanel>
+    </StackPanel> 
 
 This simply adds a text box and a button to the page. When you click on the button the text in the box will be spoken by the synthesizer. Here is the code behind:
 
@@ -52,3 +52,11 @@ if (maleVoice != null)
 }
 
 One issue that I had when trying to integrate this into my app is that in some cases I might want to have the main thread call the synthesizer multiple times to output a series of different messages. In my next post I will show how I used classes from System.Concurrent.Collections to queue up my synthesizer outputs.
+
+Facebook : https://www.facebook.com/profile.php?id=100005707052670
+
+Youtube : https://www.youtube.com/channel/UCrp30YJOmb7FG9k3bfkCFBA
+
+Twitter : https://twitter.com/Youssef82718106
+
+instagram : https://www.instagram.com/youssef.pro986/
