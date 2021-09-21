@@ -3,6 +3,8 @@ Simple Text To Speech In UWP
 
 UWP – Introduction to Text to Speech
 
+![Capture](https://user-images.githubusercontent.com/72635460/134126532-d21aea20-aa33-45a6-92cc-1ed8a48a7c27.PNG)
+
 Now in my app I want to be able to have the dealer tell me which cards have been dealt. For this, we can use the Windows.Media.SpeechSynthesis.SpeechSynthesizer class (link: https://msdn.microsoft.com/en-us/library/windows.media.speechsynthesis.speechsynthesizer.aspx). Here is a really basic example to get some speech output:
 
 On my XAML page:
